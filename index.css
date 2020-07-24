@@ -102,6 +102,7 @@ nav ul li:hover {
     justify-content: center;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
+    cursor: pointer;
 }
 
 .hero a{
