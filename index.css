@@ -43,6 +43,15 @@ footer a {
   text-decoration: none;
 }
 
+.hero a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.products a {
+  width: 25%;
+}
+
 nav .links-wrapper a {
   width: 10%;
   text-decoration: none;
@@ -108,15 +117,6 @@ nav .links-wrapper span:hover {
   text-align: center;
   font-family: 'Libre Franklin', sans-serif;
   cursor: pointer;
-}
-
-.hero a {
-  text-decoration: none;
-  font-size: 23px;
-}
-
-.products a {
-  width: 25%;
 }
 
 footer a:hover {
