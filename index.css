@@ -127,7 +127,17 @@ nav ul li:hover {
     font-size: 28px;     
 }
 
+/* ========== Products ============ */
 
+.products a{
+    width: 25%;
+}
+
+.products img{
+    width: 100%;
+}
 
 
 /* ========== Footer ==========*/
+
+
