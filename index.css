@@ -1,0 +1,174 @@
+/* ========== setup ========== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.text-white {
+  color: white;
+}
+
+/* ========== Navigation bar ========== */
+
+nav {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  right: 0;
+}
+
+nav .links-wrapper {
+  margin: 0 auto;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#logo {
+  border-radius: 3px 0 0 3px;
+}
+
+footer a {
+  color: #08c;
+  text-decoration: none;
+}
+
+.hero a {
+  text-decoration: none;
+  font-size: 23px;
+}
+
+.products a {
+  width: 25%;
+}
+
+nav .links-wrapper a {
+  width: 10%;
+  text-decoration: none;
+}
+
+nav .links-wrapper span {
+  list-style: none;
+  margin: 3px 0;
+  height: 36px;
+  border: 1px solid #333;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(#7c7c7c, #383838);
+}
+
+nav .links-wrapper span:hover {
+  background-color: #383838;
+  background-image: linear-gradient(#383838, #383838);
+}
+
+#search {
+  width: 13%;
+  justify-content: center;
+  border-radius: 0 3px 3px 0;
+}
+
+#search:hover {
+  background-image: linear-gradient(#7c7c7c, #383838);
+}
+
+#search input {
+  width: 80%;
+  border-radius: 5px;
+  background-image: linear-gradient(#7c7c7c, #383838);
+}
+
+#search input:focus {
+  outline: none;
+}
+
+#search i {
+  position: absolute;
+  right: 327px;
+  font-size: 12px;
+}
+
+/* ========== Hero section ========== */
+
+.hero {
+  height: 82vh;
+  background-image: url(./images/your_verse_hero.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Libre Franklin', sans-serif;
+  cursor: pointer;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.hero a:hover {
+  text-decoration: underline;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.hero p {
+  margin: 25px 0;
+  font-size: 28px;
+}
+
+/* ========== Products ============ */
+
+.products img {
+  width: 100%;
+}
+
+/* ========== Footer ========== */
+footer {
+  width: 90%;
+  font-size: 9px;
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  width: 49%;
+}
+
+.footer-links ul li {
+  list-style: none;
+  border-right: 1px solid #ccc;
+  padding-right: 16px;
+  height: 15px;
+}
+
+.footer-links ul li:nth-last-child(1) {
+  border: none;
+}
+
+.footer-links ul {
+  justify-content: space-around;
+}
+
+.usa-icon {
+  width: 16px;
+}
+
+.terms-and-conditions p {
+  color: #6e6e6e;
+}
