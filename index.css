@@ -10,6 +10,25 @@ body{
 
 /* ========== Navigation bar ========== */
 
+nav{
+    border: 1px solid red;
+}
+
+nav ul {
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    border: 1px solid blue;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 3px 0;
+    width: 10%;
+    border: 1px solid #333;
+}
+
 /* ========== Hero section ========== */
 
 /* ========== Footer ==========*/
