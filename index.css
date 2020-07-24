@@ -6,29 +6,93 @@
 
 body{
     margin: 0;
+    font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.display-flex{
+    display: flex;
+}
+
+.text-white{
+    color:white;
+}
+
 
 /* ========== Navigation bar ========== */
 
-nav{
-    border: 1px solid red;
-}
-
 nav ul {
-    display: flex;
+   
     margin: 0 auto;
     width: 70%;
     justify-content: center;
     border: 1px solid blue;
+    align-items: center;
 }
 
 nav ul li{
     list-style: none;
     margin: 3px 0;
     width: 10%;
-    border: 1px solid #333;
+    height: 36px;
+    border: 1px solid #333;    
+    align-items: center;
+    justify-content: center;    
+
+}
+
+#search{
+    width: 13%;
+    justify-content: center;
+    
+}
+
+#search input{
+    width: 80%;
+}
+
+#search i{
+    position: absolute;
+    right: 338px;
 }
 
 /* ========== Hero section ========== */
+
+.hero{
+    border: 1px solid red;
+    height: 70vh;
+    background-image: url(./images/your_verse_hero.jpg);
+    background-position:bottom;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.hero a{
+    text-decoration: none; 
+    font-size: 23px;   
+}
+
+.hero a:hover{
+
+    text-decoration:underline ;
+    
+}
+
+.hero h1{
+    font-size: 50px;    
+    font-weight: lighter;    
+    margin:0;    
+}
+
+.hero p{
+    margin:25px 0;
+    font-size: 28px;     
+}
+
+
+
 
 /* ========== Footer ==========*/
