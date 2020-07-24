@@ -5,8 +5,9 @@
 }
 
 body {
-  margin: 0;
   font-family: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .display-flex {
@@ -67,13 +68,6 @@ nav .links-wrapper span {
   background-image: linear-gradient(#7c7c7c, #383838);
 }
 
-.footer-links .links-wrapper span {
-  list-style: none;
-  border-right: 1px solid #ccc;
-  padding-right: 16px;
-  height: 15px;
-}
-
 nav .links-wrapper span:hover {
   background-color: #383838;
   background-image: linear-gradient(#383838, #383838);
@@ -111,6 +105,7 @@ nav .links-wrapper span:hover {
   height: 82vh;
   background-image: url(./images/your_verse_hero.jpg);
   background-position: bottom;
+  background-repeat: no-repeat;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -153,6 +148,13 @@ footer {
 
 .footer-links {
   width: 49%;
+}
+
+.footer-links ul li {
+  list-style: none;
+  border-right: 1px solid #ccc;
+  padding-right: 16px;
+  height: 15px;
 }
 
 .footer-links ul li:nth-last-child(1) {
