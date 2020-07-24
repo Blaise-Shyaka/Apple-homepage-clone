@@ -93,7 +93,6 @@ nav ul li:hover {
 /* ========== Hero section ========== */
 
 .hero{
-    border: 1px solid red;
     height: 82vh;
     background-image: url(./images/your_verse_hero.jpg);
     background-position:bottom;
@@ -139,5 +138,47 @@ nav ul li:hover {
 
 
 /* ========== Footer ==========*/
+footer{
+    width: 90%;
+    font-size: 9px;
+    justify-content: space-evenly;
+}
+
+footer a{
+    color: #08c;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.footer-links{
+    width: 49%;
+}
+
+.footer-links ul li{
+    list-style: none;
+    border-right: 1px solid #ccc;
+    padding-right: 16px;
+    height: 15px;
+}
+
+.footer-links ul li:nth-last-child(1){
+    border: none;
+}
+
+.footer-links ul{
+    justify-content: space-around;    
+
+}
+
+.usa-icon{
+    width: 16px;
+}
+
+.terms-and-conditions p{
+    color: #6e6e6e;
+}
 
 
