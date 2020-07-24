@@ -26,7 +26,7 @@ nav {
   right: 0;
 }
 
-nav ul {
+nav .links-wrapper {
   margin: 0 auto;
   width: 70%;
   justify-content: center;
@@ -43,12 +43,12 @@ footer a {
   text-decoration: none;
 }
 
-nav ul a {
+nav .links-wrapper a {
   width: 10%;
   text-decoration: none;
 }
 
-nav ul li {
+nav .links-wrapper span {
   list-style: none;
   margin: 3px 0;
   height: 36px;
@@ -58,14 +58,14 @@ nav ul li {
   background-image: linear-gradient(#7c7c7c, #383838);
 }
 
-.footer-links ul li {
+.footer-links .links-wrapper span {
   list-style: none;
   border-right: 1px solid #ccc;
   padding-right: 16px;
   height: 15px;
 }
 
-nav ul li:hover {
+nav .links-wrapper span:hover {
   background-color: #383838;
   background-image: linear-gradient(#383838, #383838);
 }
